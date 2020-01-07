@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "3263016398",
+    "firebase_url": "https://praktinisdarbas-c3cf1.firebaseio.com",
+    "project_id": "praktinisdarbas-c3cf1",
+    "storage_bucket": "praktinisdarbas-c3cf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3263016398:android:0e41a65853bb23f9",
+        "android_client_info": {
+          "package_name": "com.example.otus.uzduotis_02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3263016398-faig1rcistvtj827v2g0sotq405vqkqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.otus.uzduotis_02",
+            "certificate_hash": "3849036cac14edc8bffa3af0224d0bf3a61b35ab"
+          }
+        },
+        {
+          "client_id": "3263016398-na8r1cugtntgssts3so9jmu0rqcisnvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlUNv3nUNm1O1LnypnaTqDaiITn5r4Mp0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3263016398-na8r1cugtntgssts3so9jmu0rqcisnvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

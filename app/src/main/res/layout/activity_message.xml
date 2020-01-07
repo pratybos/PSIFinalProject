@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="0dp"
+                android:drawableTop="@android:drawable/ic_menu_revert"
+                android:text="Home"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <Button
+                android:id="@+id/buttonShowProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:drawableTop="@android:drawable/ic_menu_info_details"
+                android:text="profile"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/image_bg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/message_bg"
+                        android:text="text message"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        tools:visibility="visible" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/message2_bg"
+                        android:text="test message right"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        tools:visibility="visible" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_toStartOf="@+id/buttonSendMessage"
+                android:layout_toLeftOf="@+id/buttonSendMessage" />
+
+
+            <Button
+                android:id="@+id/buttonSendMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:drawableTop="@android:drawable/ic_menu_send"
+                android:text="Send"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
