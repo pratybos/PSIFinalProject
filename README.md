@@ -1,6 +1,6 @@
 # PSI projektas
 
-Komandos nariai: Lukas Pūras , Vytautas Beinaravičius , Jonas Jablonskis Pi17c ir Daniel Kulakovski PI17B
+Komandos nariai: Lukas Pūras , Vytautas Beinaravičius , Jonas Jablonskis, David Baranovski Pi17c ir Daniel Kulakovski PI17B
 
 
 ## Naudotos bibliotekos
